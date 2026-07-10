@@ -26,7 +26,8 @@ overrides:
   "serialize-javascript@<7.0.3": ">=7.0.3"
   shell-quote: ">=1.8.4"
   "@babel/plugin-transform-modules-systemjs": ">=7.29.4"
-  "@xmldom/xmldom": ">=0.8.13"
+  "@xmldom/xmldom": "0.8.11"
 
 allowBuilds:
+  '@swc/core': false
   esbuild: true
